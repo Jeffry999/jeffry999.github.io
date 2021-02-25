@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #000;
+}
+
+#menu ul li{
+    display: inline-block;
+}
+
+#menu ul li a{
+    padding: 15px 115px;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color: #ADADA1;
+    color: #FFFC25;
+}
+
+body{
+    background:url(imagenes/fondo.jpg);
+}
+
+body center img{
+    border-end-end-radius: 30px;
+} 
+
+h1,h2,h3{
+    background: blue;
+    color: blanchedalmond;
+}
+
+.musica {
+    background: black;
+    color: blanchedalmond;
+    align: right;
+}
+
+.receta{
+    size: 90%;
+    background:rgb(246, 248, 247);
+}
+
+.estudios{
+    background: red;
+    color:rgb(246, 248, 247);
+    size: 10px;
+}
+
+footer{
+    background:#ADADA1;
+}
